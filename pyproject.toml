@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lua-nginx-edge-backend"
+version = "0.1.0"
+description = "Lua security modules for OpenResty + Python reference port (educational)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+[tool.setuptools]
+packages = ["python_ref"]
